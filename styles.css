@@ -8,7 +8,7 @@ body {
 }
 
 /* Header and Navigation */
-header {
+.site-header {
     background-color: #007bff;
     color: white;
     padding: 15px;
@@ -41,8 +41,8 @@ nav ul li a:hover {
     color: yellow;
 }
 
-/* Sections */
-section {
+/* Section Styling */
+.section {
     padding: 20px;
     margin: 20px;
     background-color: white;
@@ -50,11 +50,8 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #007bff;
-}
-
-img {
+/* Profile Image */
+.profile-img {
     display: block;
     max-width: 200px;
     border-radius: 50%;
@@ -62,8 +59,14 @@ img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+/* Hobbies */
+.hobbies-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
 /* Footer */
-footer {
+.site-footer {
     background-color: #007bff;
     color: white;
     text-align: center;
@@ -71,11 +74,11 @@ footer {
     margin-top: 20px;
 }
 
-footer a {
+.site-footer a {
     color: yellow;
     text-decoration: none;
 }
 
-footer a:hover {
+.site-footer a:hover {
     text-decoration: underline;
 }
